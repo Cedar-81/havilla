@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+      @apply py-2 w-[15em] flex justify-center hover:animate-pulse items-center rounded font-semibold text-white;
+    }
+    .btn-outlined {
+      @apply py-2 w-[15em] flex justify-center hover:animate-pulse items-center border-2 rounded border-brand-light text-brand-light lg:border-brand-dark font-semibold lg:text-brand-dark;
+    }
+    .number-con {
+      @apply h-12 rounded flex items-center justify-center hover:animate-pulse text-lg font-bold aspect-square;
+    }
+  }
+
+:root {
+    /* font-size: 12px; */
+    font-family: 'Nunito', sans-serif;
+  }
