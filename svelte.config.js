@@ -6,7 +6,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      assets: '/public' // Set your custom output directory here
+      base: '/public' // Set your custom output directory here
     }
   },
   preprocess: vitePreprocess()
